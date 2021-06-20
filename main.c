@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* prototype the function */
 int is_even(int number)
 {
   return number % 2 == 0;
@@ -10,8 +11,8 @@ int main(void) {
   int number_input;
   int num_array[5] = {0};
 
-  // get the size of the array, no matter what size it is
-  // allows for changing the size dynamically
+  /* get the size of the array, no matter what size it is
+     allows for changing the size dynamically */
   int array_size = sizeof(num_array) / sizeof(int);
 
   for(int i = 0; i < array_size; i++)
